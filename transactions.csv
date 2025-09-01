@@ -1,0 +1,701 @@
+Transaction_ID,Date,Time,Amount,Merchant,Category,Fraud,Fraud_Reason
+T00001,2025-05-16,19:04,416,Shell,Groceries,0,Legitimate
+T00002,2025-08-15,11:12,1403,Apple,Entertainment,0,Legitimate
+T00003,2025-03-19,18:18,1814,Starbucks,Entertainment,0,Legitimate
+T00004,2025-06-09,00:19,33545,Nike,Luxury,1,"Odd transaction hour, Risky category"
+T00005,2025-04-18,12:26,615,Uber,Electronics,0,Legitimate
+T00006,2025-08-31,01:56,1925,Shell,Dining,1,Odd transaction hour
+T00007,2025-06-05,19:50,30726,Uber,Gambling,1,Risky category
+T00008,2025-03-03,10:43,1500,BestBuy,Dining,0,Legitimate
+T00009,2025-07-15,02:53,41127,eBay,Gambling,1,"Odd transaction hour, Risky category"
+T00010,2025-07-25,00:24,181,Target,Dining,1,Odd transaction hour
+T00011,2025-05-03,03:41,420,Amazon,Clothing,1,Odd transaction hour
+T00012,2025-03-25,00:57,612,Shell,Clothing,1,Odd transaction hour
+T00013,2025-03-03,19:58,1052,Target,Clothing,0,Legitimate
+T00014,2025-01-09,06:46,591,Apple,Entertainment,0,Legitimate
+T00015,2025-07-30,05:08,1602,Nike,Entertainment,1,Odd transaction hour
+T00016,2025-04-12,02:43,1320,Apple,Fuel,1,Odd transaction hour
+T00017,2025-06-10,00:46,1923,Amazon,Electronics,1,Odd transaction hour
+T00018,2025-07-09,07:27,42148,Shell,Luxury,1,Risky category
+T00019,2025-04-16,14:58,58,Apple,Dining,0,Legitimate
+T00020,2025-03-28,18:47,37062,Nike,Gambling,1,Risky category
+T00021,2025-03-30,00:27,708,Starbucks,Electronics,1,Odd transaction hour
+T00022,2025-02-26,00:10,1358,Starbucks,Entertainment,1,Odd transaction hour
+T00023,2025-08-24,06:19,73,Amazon,Entertainment,0,Legitimate
+T00024,2025-04-11,20:33,716,Amazon,Electronics,0,Legitimate
+T00025,2025-03-17,07:20,744,BestBuy,Entertainment,0,Legitimate
+T00026,2025-07-10,23:30,45098,Shell,Gambling,1,"Odd transaction hour, Risky category"
+T00027,2025-03-25,00:20,692,Apple,Entertainment,1,Odd transaction hour
+T00028,2025-06-20,14:16,746,Nike,Electronics,0,Legitimate
+T00029,2025-05-03,23:59,1884,BestBuy,Entertainment,1,Odd transaction hour
+T00030,2025-05-15,17:02,599,BestBuy,Entertainment,0,Legitimate
+T00031,2025-05-21,09:13,1181,Apple,Clothing,0,Legitimate
+T00032,2025-08-15,15:47,189,Uber,Groceries,0,Legitimate
+T00033,2025-07-04,13:20,648,Target,Entertainment,0,Legitimate
+T00034,2025-02-08,03:04,833,Walmart,Entertainment,1,Odd transaction hour
+T00035,2025-04-25,05:20,1875,eBay,Entertainment,1,Odd transaction hour
+T00036,2025-08-23,02:59,756,Uber,Fuel,1,Odd transaction hour
+T00037,2025-07-06,03:20,956,Amazon,Clothing,1,Odd transaction hour
+T00038,2025-08-19,19:47,1538,eBay,Groceries,0,Legitimate
+T00039,2025-08-13,12:04,1905,Walmart,Groceries,0,Legitimate
+T00040,2025-01-31,05:57,741,Apple,Groceries,1,Odd transaction hour
+T00041,2025-06-03,13:29,1308,Shell,Groceries,0,Legitimate
+T00042,2025-01-20,09:34,1876,Target,Fuel,0,Legitimate
+T00043,2025-04-05,23:32,1800,Amazon,Fuel,1,Odd transaction hour
+T00044,2025-02-23,18:10,480,Target,Dining,0,Legitimate
+T00045,2025-01-21,13:28,179,Amazon,Entertainment,0,Legitimate
+T00046,2025-05-24,03:26,5181,Nike,Gambling,1,"Odd transaction hour, Risky category"
+T00047,2025-06-21,04:07,1107,Apple,Clothing,1,Odd transaction hour
+T00048,2025-01-08,08:39,1562,eBay,Entertainment,0,Legitimate
+T00049,2025-07-17,15:32,327,Target,Clothing,0,Legitimate
+T00050,2025-08-25,08:18,1787,Apple,Dining,0,Legitimate
+T00051,2025-04-23,03:58,649,BestBuy,Electronics,1,Odd transaction hour
+T00052,2025-08-29,23:52,1060,BestBuy,Electronics,1,Odd transaction hour
+T00053,2025-08-07,07:43,1604,Shell,Groceries,0,Legitimate
+T00054,2025-02-14,00:38,48283,Uber,Luxury,1,"Odd transaction hour, Risky category"
+T00055,2025-01-29,06:43,565,BestBuy,Fuel,0,Legitimate
+T00056,2025-03-29,05:08,35591,Starbucks,Gambling,1,"Odd transaction hour, Risky category"
+T00057,2025-06-21,10:32,53080,Starbucks,Luxury,1,"High-value transaction, Risky category"
+T00058,2025-08-14,11:57,1200,Amazon,Dining,0,Legitimate
+T00059,2025-05-11,13:09,816,Shell,Entertainment,0,Legitimate
+T00060,2025-01-04,11:35,1961,Shell,Fuel,0,Legitimate
+T00061,2025-03-03,05:36,9048,Nike,Luxury,1,"Odd transaction hour, Risky category"
+T00062,2025-02-08,23:50,48103,Starbucks,Gambling,1,"Odd transaction hour, Risky category"
+T00063,2025-04-07,17:42,543,Nike,Dining,0,Legitimate
+T00064,2025-01-27,22:38,256,Target,Groceries,0,Legitimate
+T00065,2025-03-18,21:41,40948,Shell,Luxury,1,Risky category
+T00066,2025-01-19,02:08,670,Shell,Entertainment,1,Odd transaction hour
+T00067,2025-01-04,12:43,1880,Amazon,Groceries,0,Legitimate
+T00068,2025-06-28,18:25,1795,Amazon,Fuel,0,Legitimate
+T00069,2025-04-02,10:36,696,BestBuy,Clothing,0,Legitimate
+T00070,2025-03-23,05:55,62691,Starbucks,Luxury,1,"High-value transaction, Odd transaction hour, Risky category"
+T00071,2025-02-03,12:22,24190,Apple,Gambling,1,Risky category
+T00072,2025-08-16,23:42,27038,Nike,Gambling,1,"Odd transaction hour, Risky category"
+T00073,2025-03-02,11:13,163,Apple,Clothing,0,Legitimate
+T00074,2025-02-14,16:40,382,Walmart,Dining,0,Legitimate
+T00075,2025-08-13,00:36,16966,BestBuy,Gambling,1,"Odd transaction hour, Risky category"
+T00076,2025-05-05,02:00,31733,eBay,Gambling,1,"Odd transaction hour, Risky category"
+T00077,2025-02-20,21:42,7836,Walmart,Gambling,1,Risky category
+T00078,2025-04-14,10:49,1299,Amazon,Fuel,0,Legitimate
+T00079,2025-08-21,05:54,39663,eBay,Gambling,1,"Odd transaction hour, Risky category"
+T00080,2025-02-19,00:55,1260,Apple,Electronics,1,Odd transaction hour
+T00081,2025-08-20,14:38,1157,Target,Dining,0,Legitimate
+T00082,2025-06-26,17:47,1535,Starbucks,Clothing,0,Legitimate
+T00083,2025-07-24,22:48,20068,Apple,Gambling,1,Risky category
+T00084,2025-05-19,06:36,508,Walmart,Dining,0,Legitimate
+T00085,2025-06-24,04:46,1671,Amazon,Clothing,1,Odd transaction hour
+T00086,2025-03-18,04:20,510,Shell,Dining,1,Odd transaction hour
+T00087,2025-04-01,08:05,1011,Nike,Fuel,0,Legitimate
+T00088,2025-08-19,10:14,9092,Walmart,Luxury,1,Risky category
+T00089,2025-05-04,09:12,261,BestBuy,Fuel,0,Legitimate
+T00090,2025-06-26,14:05,30447,Amazon,Gambling,1,Risky category
+T00091,2025-03-07,03:38,1688,Starbucks,Dining,1,Odd transaction hour
+T00092,2025-08-16,00:29,1396,Target,Electronics,1,Odd transaction hour
+T00093,2025-06-22,12:56,1031,Nike,Clothing,0,Legitimate
+T00094,2025-04-11,10:35,259,Walmart,Dining,0,Legitimate
+T00095,2025-05-30,16:18,741,Target,Groceries,0,Legitimate
+T00096,2025-01-20,11:37,581,Amazon,Clothing,0,Legitimate
+T00097,2025-08-03,15:59,68703,BestBuy,Luxury,1,"High-value transaction, Risky category"
+T00098,2025-08-16,06:03,1416,BestBuy,Fuel,0,Legitimate
+T00099,2025-08-01,11:44,20661,Nike,Luxury,1,Risky category
+T00100,2025-02-25,18:49,105,Amazon,Groceries,0,Legitimate
+T00101,2025-01-17,06:37,990,Nike,Groceries,0,Legitimate
+T00102,2025-08-11,05:22,1912,Target,Fuel,1,Odd transaction hour
+T00103,2025-08-17,10:49,589,eBay,Electronics,0,Legitimate
+T00104,2025-02-24,01:51,437,Amazon,Entertainment,1,Odd transaction hour
+T00105,2025-08-04,05:13,119,Walmart,Dining,1,Odd transaction hour
+T00106,2025-03-12,16:41,11117,eBay,Gambling,1,Risky category
+T00107,2025-05-01,17:29,1224,Target,Electronics,0,Legitimate
+T00108,2025-02-14,16:27,9215,Shell,Gambling,1,Risky category
+T00109,2025-01-18,13:47,1323,Shell,Electronics,0,Legitimate
+T00110,2025-05-03,13:59,80,BestBuy,Clothing,0,Legitimate
+T00111,2025-02-06,22:54,972,Uber,Clothing,0,Legitimate
+T00112,2025-08-05,20:12,549,Starbucks,Fuel,0,Legitimate
+T00113,2025-05-12,23:54,2034,BestBuy,Luxury,1,"Odd transaction hour, Risky category"
+T00114,2025-05-28,00:43,870,Nike,Dining,1,Odd transaction hour
+T00115,2025-05-22,22:50,222,Amazon,Electronics,0,Legitimate
+T00116,2025-06-26,22:09,1651,Walmart,Entertainment,0,Legitimate
+T00117,2025-07-08,13:37,1777,Uber,Entertainment,0,Legitimate
+T00118,2025-03-26,09:42,41870,Shell,Luxury,1,Risky category
+T00119,2025-02-12,09:59,18583,Nike,Gambling,1,Risky category
+T00120,2025-07-21,07:40,17492,Shell,Gambling,1,Risky category
+T00121,2025-06-27,00:57,140,Amazon,Fuel,1,Odd transaction hour
+T00122,2025-03-20,00:57,32494,Amazon,Gambling,1,"Odd transaction hour, Risky category"
+T00123,2025-07-13,05:59,605,BestBuy,Electronics,1,Odd transaction hour
+T00124,2025-04-11,03:31,1054,Amazon,Fuel,1,Odd transaction hour
+T00125,2025-07-19,00:39,1945,Walmart,Electronics,1,Odd transaction hour
+T00126,2025-05-31,06:57,270,eBay,Clothing,0,Legitimate
+T00127,2025-06-28,23:23,40458,Target,Gambling,1,"Odd transaction hour, Risky category"
+T00128,2025-07-29,02:38,1691,eBay,Entertainment,1,Odd transaction hour
+T00129,2025-01-30,01:18,41122,Uber,Gambling,1,"Odd transaction hour, Risky category"
+T00130,2025-03-04,01:43,529,BestBuy,Electronics,1,Odd transaction hour
+T00131,2025-08-27,00:30,978,Uber,Entertainment,1,Odd transaction hour
+T00132,2025-01-01,19:00,705,Uber,Groceries,0,Legitimate
+T00133,2025-04-07,07:22,830,Apple,Electronics,0,Legitimate
+T00134,2025-03-31,03:58,1643,Walmart,Electronics,1,Odd transaction hour
+T00135,2025-02-15,15:51,519,eBay,Entertainment,0,Legitimate
+T00136,2025-01-24,03:05,740,Starbucks,Electronics,1,Odd transaction hour
+T00137,2025-02-27,11:00,1058,Nike,Electronics,0,Legitimate
+T00138,2025-05-28,16:19,1819,Uber,Dining,0,Legitimate
+T00139,2025-04-23,16:30,1047,Starbucks,Electronics,0,Legitimate
+T00140,2025-05-11,06:05,387,Shell,Dining,0,Legitimate
+T00141,2025-04-25,09:49,1048,Shell,Fuel,0,Legitimate
+T00142,2025-02-28,22:51,1803,Target,Groceries,0,Legitimate
+T00143,2025-08-02,00:31,34774,Starbucks,Gambling,1,"Odd transaction hour, Risky category"
+T00144,2025-05-01,18:48,1463,Starbucks,Fuel,0,Legitimate
+T00145,2025-08-09,11:41,663,BestBuy,Clothing,0,Legitimate
+T00146,2025-03-23,18:26,731,eBay,Entertainment,0,Legitimate
+T00147,2025-06-16,10:25,321,Amazon,Clothing,0,Legitimate
+T00148,2025-06-10,16:10,120,Shell,Clothing,0,Legitimate
+T00149,2025-01-17,23:28,1368,Starbucks,Dining,1,Odd transaction hour
+T00150,2025-01-30,12:21,138,Walmart,Groceries,0,Legitimate
+T00151,2025-07-27,05:48,1946,Amazon,Entertainment,1,Odd transaction hour
+T00152,2025-06-20,23:00,25446,Uber,Luxury,1,"Odd transaction hour, Risky category"
+T00153,2025-05-01,12:00,22480,BestBuy,Luxury,1,Risky category
+T00154,2025-02-03,17:50,439,Shell,Fuel,0,Legitimate
+T00155,2025-04-16,03:40,952,eBay,Electronics,1,Odd transaction hour
+T00156,2025-04-18,19:55,1554,Amazon,Entertainment,0,Legitimate
+T00157,2025-03-23,08:37,1733,Amazon,Dining,0,Legitimate
+T00158,2025-03-03,18:08,1327,Walmart,Fuel,0,Legitimate
+T00159,2025-03-16,05:44,1322,Amazon,Clothing,1,Odd transaction hour
+T00160,2025-02-19,06:03,617,eBay,Dining,0,Legitimate
+T00161,2025-06-25,18:11,17852,Target,Luxury,1,Risky category
+T00162,2025-05-12,20:55,299,Uber,Fuel,0,Legitimate
+T00163,2025-03-09,00:00,7068,Starbucks,Gambling,1,"Odd transaction hour, Risky category"
+T00164,2025-02-04,02:16,1323,Amazon,Groceries,1,Odd transaction hour
+T00165,2025-02-28,11:48,1328,eBay,Entertainment,0,Legitimate
+T00166,2025-07-15,11:54,765,Target,Entertainment,0,Legitimate
+T00167,2025-01-26,02:51,656,Walmart,Dining,1,Odd transaction hour
+T00168,2025-04-07,23:12,1794,Shell,Groceries,1,Odd transaction hour
+T00169,2025-07-24,15:38,1824,Starbucks,Dining,0,Legitimate
+T00170,2025-05-13,21:06,1817,Target,Groceries,0,Legitimate
+T00171,2025-07-11,11:38,531,Nike,Groceries,0,Legitimate
+T00172,2025-04-28,08:37,311,Walmart,Clothing,0,Legitimate
+T00173,2025-03-02,00:08,1909,Shell,Clothing,1,Odd transaction hour
+T00174,2025-04-03,18:13,1999,Walmart,Groceries,0,Legitimate
+T00175,2025-02-13,23:54,41970,Target,Luxury,1,"Odd transaction hour, Risky category"
+T00176,2025-05-13,06:42,1493,Target,Clothing,0,Legitimate
+T00177,2025-06-25,07:56,1119,eBay,Clothing,0,Legitimate
+T00178,2025-07-31,15:46,1715,BestBuy,Dining,0,Legitimate
+T00179,2025-07-25,23:47,13007,BestBuy,Luxury,1,"Odd transaction hour, Risky category"
+T00180,2025-08-22,13:52,1283,Target,Groceries,0,Legitimate
+T00181,2025-06-10,18:39,27645,Target,Gambling,1,Risky category
+T00182,2025-05-24,22:06,1100,Apple,Dining,0,Legitimate
+T00183,2025-03-06,15:41,49248,Uber,Luxury,1,Risky category
+T00184,2025-08-13,07:17,1144,Nike,Dining,0,Legitimate
+T00185,2025-07-22,09:27,1965,Shell,Entertainment,0,Legitimate
+T00186,2025-01-16,20:49,41607,Apple,Gambling,1,Risky category
+T00187,2025-06-09,04:07,40434,Uber,Gambling,1,"Odd transaction hour, Risky category"
+T00188,2025-01-05,17:24,1470,Shell,Clothing,0,Legitimate
+T00189,2025-01-02,01:14,491,Apple,Clothing,1,Odd transaction hour
+T00190,2025-02-20,04:58,279,Amazon,Groceries,1,Odd transaction hour
+T00191,2025-03-24,15:18,1400,Uber,Entertainment,0,Legitimate
+T00192,2025-04-28,19:34,1502,Amazon,Fuel,0,Legitimate
+T00193,2025-03-08,23:16,299,Nike,Entertainment,1,Odd transaction hour
+T00194,2025-02-10,15:41,1621,Starbucks,Clothing,0,Legitimate
+T00195,2025-08-11,20:14,25753,Target,Luxury,1,Risky category
+T00196,2025-03-22,19:49,595,Amazon,Entertainment,0,Legitimate
+T00197,2025-03-16,02:55,1123,eBay,Entertainment,1,Odd transaction hour
+T00198,2025-03-23,11:53,33224,Uber,Gambling,1,Risky category
+T00199,2025-05-17,19:27,1125,Walmart,Entertainment,0,Legitimate
+T00200,2025-04-29,01:48,555,Uber,Clothing,1,Odd transaction hour
+T00201,2025-08-05,03:55,885,Amazon,Groceries,1,Odd transaction hour
+T00202,2025-01-21,01:17,1572,Shell,Fuel,1,Odd transaction hour
+T00203,2025-01-16,01:52,1133,eBay,Clothing,1,Odd transaction hour
+T00204,2025-03-28,08:47,36325,eBay,Luxury,1,Risky category
+T00205,2025-06-20,02:32,25212,Apple,Gambling,1,"Odd transaction hour, Risky category"
+T00206,2025-08-14,13:51,48160,Starbucks,Gambling,1,Risky category
+T00207,2025-05-02,20:31,86,eBay,Electronics,0,Legitimate
+T00208,2025-04-29,07:07,28724,Target,Luxury,1,Risky category
+T00209,2025-04-20,22:58,35864,Uber,Gambling,1,Risky category
+T00210,2025-04-01,10:48,5525,Walmart,Luxury,1,Risky category
+T00211,2025-08-07,19:37,1682,Target,Fuel,0,Legitimate
+T00212,2025-04-21,03:02,1853,Target,Dining,1,Odd transaction hour
+T00213,2025-05-23,07:44,994,Target,Groceries,0,Legitimate
+T00214,2025-04-12,03:10,1013,Uber,Clothing,1,Odd transaction hour
+T00215,2025-06-25,12:22,11239,BestBuy,Gambling,1,Risky category
+T00216,2025-05-19,15:57,51,Uber,Fuel,0,Legitimate
+T00217,2025-08-11,17:37,1336,Apple,Fuel,0,Legitimate
+T00218,2025-08-27,01:02,1897,Target,Entertainment,1,Odd transaction hour
+T00219,2025-02-04,01:00,531,eBay,Fuel,1,Odd transaction hour
+T00220,2025-08-17,18:14,395,Uber,Entertainment,0,Legitimate
+T00221,2025-03-28,04:40,1884,Starbucks,Entertainment,1,Odd transaction hour
+T00222,2025-07-27,23:58,827,Nike,Clothing,1,Odd transaction hour
+T00223,2025-03-04,01:38,170,eBay,Electronics,1,Odd transaction hour
+T00224,2025-01-09,13:32,1885,Amazon,Entertainment,0,Legitimate
+T00225,2025-07-12,08:53,908,eBay,Fuel,0,Legitimate
+T00226,2025-02-10,15:10,3504,Target,Luxury,1,Risky category
+T00227,2025-03-28,05:18,677,Nike,Groceries,1,Odd transaction hour
+T00228,2025-08-28,17:12,1708,Nike,Clothing,0,Legitimate
+T00229,2025-03-19,20:00,9710,Walmart,Gambling,1,Risky category
+T00230,2025-06-02,07:00,29865,Amazon,Luxury,1,Risky category
+T00231,2025-05-05,00:36,30553,Uber,Luxury,1,"Odd transaction hour, Risky category"
+T00232,2025-05-28,23:30,930,BestBuy,Entertainment,1,Odd transaction hour
+T00233,2025-02-26,17:12,516,Starbucks,Fuel,0,Legitimate
+T00234,2025-05-27,16:49,62602,Walmart,Luxury,1,"High-value transaction, Risky category"
+T00235,2025-06-16,21:12,19315,Amazon,Gambling,1,Risky category
+T00236,2025-07-08,15:22,645,Walmart,Entertainment,0,Legitimate
+T00237,2025-08-04,15:00,24022,Apple,Gambling,1,Risky category
+T00238,2025-08-20,22:35,1426,Uber,Entertainment,0,Legitimate
+T00239,2025-08-20,20:51,1797,Apple,Dining,0,Legitimate
+T00240,2025-06-04,10:05,410,BestBuy,Electronics,0,Legitimate
+T00241,2025-02-04,05:04,180,Target,Entertainment,1,Odd transaction hour
+T00242,2025-07-21,19:40,800,Shell,Groceries,0,Legitimate
+T00243,2025-06-13,14:42,1201,Target,Fuel,0,Legitimate
+T00244,2025-01-27,06:46,27696,BestBuy,Luxury,1,Risky category
+T00245,2025-01-11,04:39,199,Shell,Fuel,1,Odd transaction hour
+T00246,2025-07-13,08:35,1137,eBay,Fuel,0,Legitimate
+T00247,2025-08-31,03:41,341,Shell,Fuel,1,Odd transaction hour
+T00248,2025-06-20,01:33,1064,Amazon,Groceries,1,Odd transaction hour
+T00249,2025-03-03,12:03,1536,BestBuy,Groceries,0,Legitimate
+T00250,2025-02-04,15:21,159,Starbucks,Fuel,0,Legitimate
+T00251,2025-01-01,17:49,949,Amazon,Groceries,0,Legitimate
+T00252,2025-05-08,16:33,589,Amazon,Fuel,0,Legitimate
+T00253,2025-04-15,08:53,709,Apple,Dining,0,Legitimate
+T00254,2025-01-23,04:50,701,Nike,Electronics,1,Odd transaction hour
+T00255,2025-06-14,16:43,39560,Amazon,Gambling,1,Risky category
+T00256,2025-05-02,10:45,1274,eBay,Entertainment,0,Legitimate
+T00257,2025-05-06,23:59,30845,Shell,Gambling,1,"Odd transaction hour, Risky category"
+T00258,2025-04-20,09:51,164,BestBuy,Electronics,0,Legitimate
+T00259,2025-01-19,15:44,31631,Starbucks,Luxury,1,Risky category
+T00260,2025-02-15,15:18,521,Uber,Electronics,0,Legitimate
+T00261,2025-06-14,11:58,1367,Uber,Entertainment,0,Legitimate
+T00262,2025-03-08,03:24,617,Shell,Dining,1,Odd transaction hour
+T00263,2025-07-06,03:40,1759,Nike,Entertainment,1,Odd transaction hour
+T00264,2025-02-17,01:01,4745,Shell,Gambling,1,"Odd transaction hour, Risky category"
+T00265,2025-02-13,07:30,1888,Starbucks,Clothing,0,Legitimate
+T00266,2025-02-23,14:14,693,Shell,Clothing,0,Legitimate
+T00267,2025-06-12,13:25,21195,eBay,Luxury,1,Risky category
+T00268,2025-07-21,23:33,841,Starbucks,Clothing,1,Odd transaction hour
+T00269,2025-04-27,01:02,33921,Uber,Gambling,1,"Odd transaction hour, Risky category"
+T00270,2025-03-26,14:05,1122,Shell,Groceries,0,Legitimate
+T00271,2025-05-25,11:41,1517,Uber,Entertainment,0,Legitimate
+T00272,2025-04-17,02:41,676,BestBuy,Entertainment,1,Odd transaction hour
+T00273,2025-01-13,07:13,1999,BestBuy,Electronics,0,Legitimate
+T00274,2025-07-22,05:12,940,BestBuy,Dining,1,Odd transaction hour
+T00275,2025-06-19,07:13,315,Uber,Electronics,0,Legitimate
+T00276,2025-01-07,09:08,1967,Starbucks,Fuel,0,Legitimate
+T00277,2025-06-10,02:27,1267,Shell,Groceries,1,Odd transaction hour
+T00278,2025-02-14,08:50,1863,Nike,Entertainment,0,Legitimate
+T00279,2025-07-05,07:48,1718,Shell,Groceries,0,Legitimate
+T00280,2025-08-14,15:47,3071,Shell,Luxury,1,Risky category
+T00281,2025-03-12,09:20,500,Target,Clothing,0,Legitimate
+T00282,2025-02-04,11:05,4284,Shell,Luxury,1,Risky category
+T00283,2025-05-15,23:33,960,Target,Groceries,1,Odd transaction hour
+T00284,2025-07-21,19:44,335,eBay,Fuel,0,Legitimate
+T00285,2025-06-10,03:26,1879,Walmart,Groceries,1,Odd transaction hour
+T00286,2025-08-04,23:05,901,Shell,Entertainment,1,Odd transaction hour
+T00287,2025-07-11,01:53,94,Uber,Dining,1,Odd transaction hour
+T00288,2025-03-06,03:43,435,Starbucks,Dining,1,Odd transaction hour
+T00289,2025-05-17,15:42,12899,Apple,Gambling,1,Risky category
+T00290,2025-03-22,09:56,84,eBay,Fuel,0,Legitimate
+T00291,2025-02-02,20:23,638,BestBuy,Groceries,0,Legitimate
+T00292,2025-02-10,16:49,1024,Shell,Dining,0,Legitimate
+T00293,2025-01-07,00:50,1689,Amazon,Dining,1,Odd transaction hour
+T00294,2025-02-14,21:13,17116,eBay,Gambling,1,Risky category
+T00295,2025-08-24,09:57,436,Apple,Electronics,0,Legitimate
+T00296,2025-06-20,14:37,1881,Walmart,Fuel,0,Legitimate
+T00297,2025-07-08,04:47,191,BestBuy,Fuel,1,Odd transaction hour
+T00298,2025-07-13,12:10,396,BestBuy,Dining,0,Legitimate
+T00299,2025-02-24,21:12,731,Walmart,Entertainment,0,Legitimate
+T00300,2025-02-10,08:59,19880,Walmart,Gambling,1,Risky category
+T00301,2025-06-14,08:38,1680,Walmart,Electronics,0,Legitimate
+T00302,2025-07-17,23:32,196,Amazon,Fuel,1,Odd transaction hour
+T00303,2025-08-22,19:15,1037,Starbucks,Entertainment,0,Legitimate
+T00304,2025-01-26,22:03,26792,eBay,Luxury,1,Risky category
+T00305,2025-02-14,10:31,282,eBay,Dining,0,Legitimate
+T00306,2025-02-09,18:51,1798,Amazon,Fuel,0,Legitimate
+T00307,2025-08-04,11:53,889,eBay,Fuel,0,Legitimate
+T00308,2025-02-28,00:28,46101,Walmart,Luxury,1,"Odd transaction hour, Risky category"
+T00309,2025-05-24,20:55,1342,Amazon,Dining,0,Legitimate
+T00310,2025-04-28,16:37,111,Shell,Clothing,0,Legitimate
+T00311,2025-07-22,22:23,737,eBay,Clothing,0,Legitimate
+T00312,2025-08-29,04:12,497,Shell,Entertainment,1,Odd transaction hour
+T00313,2025-06-16,23:11,497,Walmart,Entertainment,1,Odd transaction hour
+T00314,2025-02-09,15:22,42456,Shell,Gambling,1,Risky category
+T00315,2025-06-02,00:17,610,Uber,Groceries,1,Odd transaction hour
+T00316,2025-04-09,21:04,64447,Nike,Luxury,1,"High-value transaction, Risky category"
+T00317,2025-03-30,11:49,929,Nike,Entertainment,0,Legitimate
+T00318,2025-06-21,18:02,250,Amazon,Fuel,0,Legitimate
+T00319,2025-05-01,12:41,739,Target,Groceries,0,Legitimate
+T00320,2025-05-08,23:53,1133,eBay,Clothing,1,Odd transaction hour
+T00321,2025-04-06,15:12,274,eBay,Groceries,0,Legitimate
+T00322,2025-04-03,05:13,1887,Shell,Electronics,1,Odd transaction hour
+T00323,2025-02-05,14:40,588,BestBuy,Dining,0,Legitimate
+T00324,2025-04-24,09:51,505,Shell,Electronics,0,Legitimate
+T00325,2025-02-13,14:38,1525,Shell,Dining,0,Legitimate
+T00326,2025-05-13,00:16,122,Apple,Clothing,1,Odd transaction hour
+T00327,2025-05-21,04:43,1025,Amazon,Entertainment,1,Odd transaction hour
+T00328,2025-08-30,03:29,29564,BestBuy,Gambling,1,"Odd transaction hour, Risky category"
+T00329,2025-02-09,11:48,55575,Starbucks,Luxury,1,"High-value transaction, Risky category"
+T00330,2025-06-10,22:37,30537,Apple,Gambling,1,Risky category
+T00331,2025-01-30,13:03,240,Amazon,Entertainment,0,Legitimate
+T00332,2025-06-13,07:18,715,Starbucks,Clothing,0,Legitimate
+T00333,2025-06-26,03:43,758,Target,Entertainment,1,Odd transaction hour
+T00334,2025-06-01,22:34,26691,Apple,Luxury,1,Risky category
+T00335,2025-01-06,15:39,11836,Target,Gambling,1,Risky category
+T00336,2025-07-17,03:48,1107,Shell,Fuel,1,Odd transaction hour
+T00337,2025-05-07,20:22,1463,Target,Entertainment,0,Legitimate
+T00338,2025-03-14,03:52,1608,Walmart,Entertainment,1,Odd transaction hour
+T00339,2025-08-04,15:06,54211,eBay,Luxury,1,"High-value transaction, Risky category"
+T00340,2025-01-14,22:23,429,eBay,Dining,0,Legitimate
+T00341,2025-02-05,06:45,1663,Walmart,Fuel,0,Legitimate
+T00342,2025-06-21,08:28,1148,BestBuy,Electronics,0,Legitimate
+T00343,2025-02-26,12:17,459,Target,Groceries,0,Legitimate
+T00344,2025-02-25,07:50,14400,BestBuy,Luxury,1,Risky category
+T00345,2025-02-23,12:44,1860,Walmart,Groceries,0,Legitimate
+T00346,2025-07-21,02:58,1328,Starbucks,Electronics,1,Odd transaction hour
+T00347,2025-07-31,19:20,36086,Shell,Gambling,1,Risky category
+T00348,2025-02-18,21:51,1114,Shell,Electronics,0,Legitimate
+T00349,2025-07-06,04:50,25305,Apple,Gambling,1,"Odd transaction hour, Risky category"
+T00350,2025-01-15,03:49,1755,Starbucks,Fuel,1,Odd transaction hour
+T00351,2025-02-28,17:24,168,eBay,Electronics,0,Legitimate
+T00352,2025-05-20,05:25,30479,Nike,Gambling,1,"Odd transaction hour, Risky category"
+T00353,2025-08-26,18:14,880,Uber,Electronics,0,Legitimate
+T00354,2025-02-02,14:29,321,Amazon,Fuel,0,Legitimate
+T00355,2025-08-30,18:38,48757,Walmart,Gambling,1,Risky category
+T00356,2025-04-13,02:37,866,BestBuy,Dining,1,Odd transaction hour
+T00357,2025-02-19,02:07,58819,BestBuy,Luxury,1,"High-value transaction, Odd transaction hour, Risky category"
+T00358,2025-08-22,00:12,647,Target,Entertainment,1,Odd transaction hour
+T00359,2025-07-20,06:06,1833,Uber,Fuel,0,Legitimate
+T00360,2025-03-14,17:33,645,Walmart,Groceries,0,Legitimate
+T00361,2025-07-16,09:57,217,Target,Electronics,0,Legitimate
+T00362,2025-03-21,17:01,1803,Starbucks,Electronics,0,Legitimate
+T00363,2025-02-11,13:38,287,Amazon,Electronics,0,Legitimate
+T00364,2025-08-10,09:42,1879,Target,Fuel,0,Legitimate
+T00365,2025-07-30,14:12,1848,Nike,Electronics,0,Legitimate
+T00366,2025-01-16,18:28,868,Starbucks,Electronics,0,Legitimate
+T00367,2025-06-12,07:12,917,Walmart,Fuel,0,Legitimate
+T00368,2025-07-14,17:56,1780,Walmart,Electronics,0,Legitimate
+T00369,2025-06-29,03:47,1079,Shell,Dining,1,Odd transaction hour
+T00370,2025-04-24,23:25,153,Starbucks,Dining,1,Odd transaction hour
+T00371,2025-04-12,00:07,723,eBay,Groceries,1,Odd transaction hour
+T00372,2025-07-23,00:09,468,eBay,Entertainment,1,Odd transaction hour
+T00373,2025-07-01,19:12,31929,eBay,Gambling,1,Risky category
+T00374,2025-02-10,13:25,752,Walmart,Groceries,0,Legitimate
+T00375,2025-03-05,04:58,1044,Shell,Fuel,1,Odd transaction hour
+T00376,2025-02-01,09:41,622,Shell,Gambling,1,Risky category
+T00377,2025-08-06,17:26,559,Walmart,Clothing,0,Legitimate
+T00378,2025-06-29,20:36,903,eBay,Entertainment,0,Legitimate
+T00379,2025-02-16,18:53,808,Uber,Entertainment,0,Legitimate
+T00380,2025-02-23,02:43,1837,Starbucks,Groceries,1,Odd transaction hour
+T00381,2025-03-26,13:28,112,Amazon,Dining,0,Legitimate
+T00382,2025-06-02,20:51,27319,eBay,Luxury,1,Risky category
+T00383,2025-06-21,11:32,1684,BestBuy,Fuel,0,Legitimate
+T00384,2025-01-03,12:08,1238,Uber,Fuel,0,Legitimate
+T00385,2025-06-30,23:59,33792,Amazon,Gambling,1,"Odd transaction hour, Risky category"
+T00386,2025-04-28,09:28,1714,Apple,Groceries,0,Legitimate
+T00387,2025-04-18,00:25,796,Apple,Electronics,1,Odd transaction hour
+T00388,2025-08-06,09:11,325,Starbucks,Groceries,0,Legitimate
+T00389,2025-07-24,02:07,1128,Nike,Clothing,1,Odd transaction hour
+T00390,2025-07-22,03:40,1307,Nike,Groceries,1,Odd transaction hour
+T00391,2025-06-11,17:17,981,Uber,Electronics,0,Legitimate
+T00392,2025-03-06,14:42,2156,Starbucks,Luxury,1,Risky category
+T00393,2025-03-22,06:43,69006,Amazon,Luxury,1,"High-value transaction, Risky category"
+T00394,2025-02-10,03:51,53898,Walmart,Luxury,1,"High-value transaction, Odd transaction hour, Risky category"
+T00395,2025-02-07,02:45,1066,Target,Electronics,1,Odd transaction hour
+T00396,2025-01-16,23:32,1413,Target,Entertainment,1,Odd transaction hour
+T00397,2025-04-11,00:00,102,Uber,Fuel,1,Odd transaction hour
+T00398,2025-06-27,00:34,15000,Amazon,Gambling,1,"Odd transaction hour, Risky category"
+T00399,2025-07-17,03:56,1624,Target,Entertainment,1,Odd transaction hour
+T00400,2025-01-16,06:46,1447,Amazon,Groceries,0,Legitimate
+T00401,2025-01-18,06:02,180,Walmart,Groceries,0,Legitimate
+T00402,2025-08-28,09:25,35052,Nike,Gambling,1,Risky category
+T00403,2025-06-21,06:43,1594,eBay,Electronics,0,Legitimate
+T00404,2025-01-31,15:12,27004,Apple,Gambling,1,Risky category
+T00405,2025-08-26,15:26,920,BestBuy,Clothing,0,Legitimate
+T00406,2025-01-22,09:54,1270,Starbucks,Electronics,0,Legitimate
+T00407,2025-08-10,16:06,1368,eBay,Groceries,0,Legitimate
+T00408,2025-05-04,19:39,57160,eBay,Luxury,1,"High-value transaction, Risky category"
+T00409,2025-02-10,07:17,27711,Starbucks,Gambling,1,Risky category
+T00410,2025-02-08,06:52,957,eBay,Entertainment,0,Legitimate
+T00411,2025-04-26,10:43,442,Amazon,Groceries,0,Legitimate
+T00412,2025-08-29,09:25,751,Walmart,Clothing,0,Legitimate
+T00413,2025-02-23,02:11,1796,Nike,Dining,1,Odd transaction hour
+T00414,2025-08-13,20:51,119,Target,Entertainment,0,Legitimate
+T00415,2025-05-07,14:13,1752,Amazon,Groceries,0,Legitimate
+T00416,2025-01-18,13:53,1608,Shell,Dining,0,Legitimate
+T00417,2025-01-28,16:38,1249,Target,Fuel,0,Legitimate
+T00418,2025-05-24,21:37,1412,Walmart,Fuel,0,Legitimate
+T00419,2025-06-30,10:21,39273,Shell,Gambling,1,Risky category
+T00420,2025-04-19,22:34,1161,Target,Clothing,0,Legitimate
+T00421,2025-03-28,09:56,1593,Shell,Groceries,0,Legitimate
+T00422,2025-07-04,16:15,583,Shell,Electronics,0,Legitimate
+T00423,2025-02-15,16:07,1814,Starbucks,Fuel,0,Legitimate
+T00424,2025-03-29,23:19,1167,eBay,Clothing,1,Odd transaction hour
+T00425,2025-08-05,23:24,334,Apple,Groceries,1,Odd transaction hour
+T00426,2025-02-09,08:23,1741,Uber,Entertainment,0,Legitimate
+T00427,2025-01-07,13:54,1188,Amazon,Entertainment,0,Legitimate
+T00428,2025-03-22,08:47,725,Uber,Electronics,0,Legitimate
+T00429,2025-03-26,05:30,24119,Nike,Luxury,1,"Odd transaction hour, Risky category"
+T00430,2025-03-07,21:39,739,Target,Clothing,0,Legitimate
+T00431,2025-03-29,13:52,44466,Target,Gambling,1,Risky category
+T00432,2025-01-01,09:47,894,Walmart,Groceries,0,Legitimate
+T00433,2025-06-29,23:05,324,Shell,Dining,1,Odd transaction hour
+T00434,2025-02-27,22:16,1744,Apple,Entertainment,0,Legitimate
+T00435,2025-02-21,20:49,844,Nike,Dining,0,Legitimate
+T00436,2025-01-13,16:58,1857,Walmart,Fuel,0,Legitimate
+T00437,2025-07-10,00:12,779,Shell,Clothing,1,Odd transaction hour
+T00438,2025-01-15,17:01,1872,Apple,Fuel,0,Legitimate
+T00439,2025-05-05,17:24,1555,Starbucks,Fuel,0,Legitimate
+T00440,2025-06-28,00:35,25322,Nike,Luxury,1,"Odd transaction hour, Risky category"
+T00441,2025-03-06,21:33,1489,BestBuy,Groceries,0,Legitimate
+T00442,2025-02-18,14:57,32562,Shell,Gambling,1,Risky category
+T00443,2025-08-05,21:43,62871,Target,Luxury,1,"High-value transaction, Risky category"
+T00444,2025-01-11,17:05,488,eBay,Electronics,0,Legitimate
+T00445,2025-01-26,22:39,23789,Starbucks,Gambling,1,Risky category
+T00446,2025-03-29,06:11,29848,BestBuy,Gambling,1,Risky category
+T00447,2025-02-15,06:54,1758,Target,Groceries,0,Legitimate
+T00448,2025-01-21,18:24,1647,Nike,Groceries,0,Legitimate
+T00449,2025-08-30,17:54,43295,eBay,Gambling,1,Risky category
+T00450,2025-01-11,19:59,487,BestBuy,Dining,0,Legitimate
+T00451,2025-03-17,08:39,123,Starbucks,Dining,0,Legitimate
+T00452,2025-03-13,20:50,1675,Apple,Entertainment,0,Legitimate
+T00453,2025-03-01,00:56,1900,Target,Dining,1,Odd transaction hour
+T00454,2025-02-27,16:48,4982,Uber,Gambling,1,Risky category
+T00455,2025-01-25,11:26,1537,Apple,Groceries,0,Legitimate
+T00456,2025-01-24,07:59,149,Target,Clothing,0,Legitimate
+T00457,2025-04-27,08:00,1827,Target,Entertainment,0,Legitimate
+T00458,2025-08-02,04:12,32088,Target,Gambling,1,"Odd transaction hour, Risky category"
+T00459,2025-04-20,16:32,1474,Nike,Electronics,0,Legitimate
+T00460,2025-08-31,09:40,1832,Uber,Electronics,0,Legitimate
+T00461,2025-06-24,19:49,1350,Uber,Dining,0,Legitimate
+T00462,2025-04-05,12:55,1355,Target,Entertainment,0,Legitimate
+T00463,2025-07-15,13:43,1961,Apple,Groceries,0,Legitimate
+T00464,2025-03-10,09:48,562,eBay,Fuel,0,Legitimate
+T00465,2025-08-22,01:50,293,Starbucks,Dining,1,Odd transaction hour
+T00466,2025-06-20,01:10,626,Target,Fuel,1,Odd transaction hour
+T00467,2025-03-09,12:41,647,Amazon,Clothing,0,Legitimate
+T00468,2025-07-23,01:51,1132,Nike,Electronics,1,Odd transaction hour
+T00469,2025-07-14,06:35,892,Walmart,Electronics,0,Legitimate
+T00470,2025-08-09,16:28,601,Nike,Dining,0,Legitimate
+T00471,2025-04-15,18:50,5386,Uber,Gambling,1,Risky category
+T00472,2025-01-21,06:25,1402,BestBuy,Electronics,0,Legitimate
+T00473,2025-02-24,04:54,96,Walmart,Dining,1,Odd transaction hour
+T00474,2025-08-28,04:13,12587,Shell,Luxury,1,"Odd transaction hour, Risky category"
+T00475,2025-01-26,04:15,802,Nike,Entertainment,1,Odd transaction hour
+T00476,2025-03-25,18:55,1078,Target,Dining,0,Legitimate
+T00477,2025-04-06,01:47,984,Uber,Clothing,1,Odd transaction hour
+T00478,2025-02-02,01:41,1110,Uber,Fuel,1,Odd transaction hour
+T00479,2025-01-14,12:25,1008,BestBuy,Electronics,0,Legitimate
+T00480,2025-01-16,12:32,1296,Apple,Groceries,0,Legitimate
+T00481,2025-06-27,10:31,12792,Amazon,Gambling,1,Risky category
+T00482,2025-01-21,08:41,564,Nike,Entertainment,0,Legitimate
+T00483,2025-02-22,17:12,1082,Walmart,Groceries,0,Legitimate
+T00484,2025-06-16,21:06,1991,Shell,Dining,0,Legitimate
+T00485,2025-04-06,18:05,1758,Starbucks,Groceries,0,Legitimate
+T00486,2025-08-29,03:00,670,Target,Groceries,1,Odd transaction hour
+T00487,2025-02-17,19:44,1473,Starbucks,Fuel,0,Legitimate
+T00488,2025-02-27,10:43,891,Starbucks,Entertainment,0,Legitimate
+T00489,2025-03-18,18:22,12176,Shell,Gambling,1,Risky category
+T00490,2025-02-23,14:38,1419,Target,Electronics,0,Legitimate
+T00491,2025-07-28,20:26,1627,eBay,Electronics,0,Legitimate
+T00492,2025-01-03,08:44,188,Nike,Dining,0,Legitimate
+T00493,2025-01-13,12:31,1100,Nike,Entertainment,0,Legitimate
+T00494,2025-02-25,21:31,907,eBay,Clothing,0,Legitimate
+T00495,2025-06-12,06:48,681,Uber,Electronics,0,Legitimate
+T00496,2025-07-29,06:33,26631,Target,Luxury,1,Risky category
+T00497,2025-08-23,20:31,1076,Shell,Electronics,0,Legitimate
+T00498,2025-05-30,09:44,936,Uber,Electronics,0,Legitimate
+T00499,2025-05-15,06:06,30790,Amazon,Luxury,1,Risky category
+T00500,2025-04-08,02:15,47973,eBay,Gambling,1,"Odd transaction hour, Risky category"
+T00501,2025-05-22,09:08,35897,Shell,Luxury,1,Risky category
+T00502,2025-05-02,10:46,392,Starbucks,Entertainment,0,Legitimate
+T00503,2025-07-04,08:27,77,Starbucks,Groceries,0,Legitimate
+T00504,2025-01-18,06:41,13069,Walmart,Luxury,1,Risky category
+T00505,2025-06-05,13:30,7695,Walmart,Luxury,1,Risky category
+T00506,2025-06-21,19:24,40302,BestBuy,Luxury,1,Risky category
+T00507,2025-05-22,19:21,1393,Walmart,Fuel,0,Legitimate
+T00508,2025-08-08,07:44,1813,BestBuy,Clothing,0,Legitimate
+T00509,2025-07-17,23:11,583,eBay,Groceries,1,Odd transaction hour
+T00510,2025-05-27,07:04,1237,Uber,Entertainment,0,Legitimate
+T00511,2025-07-02,10:29,182,Target,Groceries,0,Legitimate
+T00512,2025-03-31,13:23,439,Amazon,Fuel,0,Legitimate
+T00513,2025-02-16,09:30,44464,Walmart,Gambling,1,Risky category
+T00514,2025-03-14,09:18,1819,BestBuy,Fuel,0,Legitimate
+T00515,2025-06-25,22:34,1176,Target,Entertainment,0,Legitimate
+T00516,2025-08-29,10:54,1067,eBay,Entertainment,0,Legitimate
+T00517,2025-06-14,00:27,1021,BestBuy,Electronics,1,Odd transaction hour
+T00518,2025-06-12,11:56,1436,BestBuy,Entertainment,0,Legitimate
+T00519,2025-03-13,01:09,317,BestBuy,Electronics,1,Odd transaction hour
+T00520,2025-03-07,11:53,19132,Nike,Gambling,1,Risky category
+T00521,2025-03-27,13:01,67646,Target,Luxury,1,"High-value transaction, Risky category"
+T00522,2025-05-02,05:04,1580,Shell,Groceries,1,Odd transaction hour
+T00523,2025-07-20,20:30,1244,Uber,Groceries,0,Legitimate
+T00524,2025-01-18,16:45,241,Shell,Clothing,0,Legitimate
+T00525,2025-06-24,01:59,1091,Target,Groceries,1,Odd transaction hour
+T00526,2025-06-25,22:18,1423,Nike,Groceries,0,Legitimate
+T00527,2025-01-02,11:16,39038,Nike,Gambling,1,Risky category
+T00528,2025-07-04,23:52,44892,Apple,Gambling,1,"Odd transaction hour, Risky category"
+T00529,2025-05-11,07:53,1371,Target,Clothing,0,Legitimate
+T00530,2025-01-16,14:43,15022,Shell,Luxury,1,Risky category
+T00531,2025-03-24,19:46,287,Target,Dining,0,Legitimate
+T00532,2025-08-10,11:43,1714,BestBuy,Dining,0,Legitimate
+T00533,2025-02-12,21:33,1921,Shell,Entertainment,0,Legitimate
+T00534,2025-07-08,20:53,275,Apple,Clothing,0,Legitimate
+T00535,2025-03-17,06:01,9673,eBay,Luxury,1,Risky category
+T00536,2025-03-02,01:03,1622,Shell,Fuel,1,Odd transaction hour
+T00537,2025-08-08,08:58,1114,eBay,Entertainment,0,Legitimate
+T00538,2025-06-06,22:52,1002,Apple,Clothing,0,Legitimate
+T00539,2025-01-18,04:40,625,BestBuy,Groceries,1,Odd transaction hour
+T00540,2025-03-15,23:15,1017,Uber,Electronics,1,Odd transaction hour
+T00541,2025-07-23,05:50,32411,Apple,Luxury,1,"Odd transaction hour, Risky category"
+T00542,2025-06-01,02:50,899,BestBuy,Groceries,1,Odd transaction hour
+T00543,2025-04-26,14:40,607,eBay,Clothing,0,Legitimate
+T00544,2025-08-02,09:57,1998,Apple,Entertainment,0,Legitimate
+T00545,2025-03-06,21:51,1168,Walmart,Dining,0,Legitimate
+T00546,2025-04-07,09:55,743,eBay,Groceries,0,Legitimate
+T00547,2025-03-14,01:18,1540,Apple,Entertainment,1,Odd transaction hour
+T00548,2025-08-05,22:57,1401,Uber,Clothing,0,Legitimate
+T00549,2025-04-03,21:29,956,Nike,Electronics,0,Legitimate
+T00550,2025-08-05,09:31,1738,Uber,Electronics,0,Legitimate
+T00551,2025-03-23,23:28,30632,eBay,Gambling,1,"Odd transaction hour, Risky category"
+T00552,2025-01-02,18:57,585,Nike,Groceries,0,Legitimate
+T00553,2025-01-16,01:29,311,Uber,Electronics,1,Odd transaction hour
+T00554,2025-03-10,00:54,1558,eBay,Groceries,1,Odd transaction hour
+T00555,2025-06-16,05:42,671,Shell,Fuel,1,Odd transaction hour
+T00556,2025-03-30,04:07,36253,eBay,Luxury,1,"Odd transaction hour, Risky category"
+T00557,2025-02-08,19:15,38771,Walmart,Gambling,1,Risky category
+T00558,2025-07-09,21:51,646,Starbucks,Dining,0,Legitimate
+T00559,2025-08-31,20:44,36111,Apple,Gambling,1,Risky category
+T00560,2025-01-04,03:49,881,Apple,Electronics,1,Odd transaction hour
+T00561,2025-03-12,20:54,1472,Uber,Electronics,0,Legitimate
+T00562,2025-03-23,08:24,57,Walmart,Entertainment,0,Legitimate
+T00563,2025-06-14,02:46,318,Shell,Fuel,1,Odd transaction hour
+T00564,2025-04-10,19:37,1776,Starbucks,Fuel,0,Legitimate
+T00565,2025-06-18,08:03,700,Apple,Entertainment,0,Legitimate
+T00566,2025-01-02,20:44,1406,BestBuy,Groceries,0,Legitimate
+T00567,2025-01-17,18:57,708,Walmart,Fuel,0,Legitimate
+T00568,2025-02-11,08:22,1480,Amazon,Fuel,0,Legitimate
+T00569,2025-04-25,11:41,1545,Uber,Electronics,0,Legitimate
+T00570,2025-07-14,13:18,47284,Uber,Luxury,1,Risky category
+T00571,2025-07-17,00:08,1071,Starbucks,Fuel,1,Odd transaction hour
+T00572,2025-07-02,18:57,920,Uber,Dining,0,Legitimate
+T00573,2025-06-16,07:54,571,Walmart,Groceries,0,Legitimate
+T00574,2025-04-05,08:23,40663,Starbucks,Gambling,1,Risky category
+T00575,2025-05-08,13:59,21728,Apple,Gambling,1,Risky category
+T00576,2025-06-08,07:01,473,Walmart,Dining,0,Legitimate
+T00577,2025-03-28,19:24,1759,eBay,Electronics,0,Legitimate
+T00578,2025-01-12,09:47,463,BestBuy,Clothing,0,Legitimate
+T00579,2025-01-24,14:33,1134,Apple,Fuel,0,Legitimate
+T00580,2025-01-13,20:31,618,Nike,Dining,0,Legitimate
+T00581,2025-03-05,02:59,1968,Nike,Entertainment,1,Odd transaction hour
+T00582,2025-05-19,16:13,535,eBay,Dining,0,Legitimate
+T00583,2025-03-10,23:53,23408,Uber,Gambling,1,"Odd transaction hour, Risky category"
+T00584,2025-03-21,23:44,1633,Shell,Clothing,1,Odd transaction hour
+T00585,2025-06-30,00:33,963,BestBuy,Dining,1,Odd transaction hour
+T00586,2025-07-04,16:35,134,Apple,Groceries,0,Legitimate
+T00587,2025-04-05,14:10,29961,Starbucks,Luxury,1,Risky category
+T00588,2025-06-05,04:29,515,Walmart,Entertainment,1,Odd transaction hour
+T00589,2025-01-17,20:38,1899,Target,Clothing,0,Legitimate
+T00590,2025-02-13,20:29,277,Nike,Dining,0,Legitimate
+T00591,2025-06-29,06:48,1895,BestBuy,Dining,0,Legitimate
+T00592,2025-06-12,13:41,19981,Nike,Luxury,1,Risky category
+T00593,2025-04-18,14:47,363,Walmart,Clothing,0,Legitimate
+T00594,2025-05-31,12:00,1217,Uber,Electronics,0,Legitimate
+T00595,2025-03-30,15:09,76,BestBuy,Entertainment,0,Legitimate
+T00596,2025-07-25,16:46,1111,Walmart,Electronics,0,Legitimate
+T00597,2025-07-06,16:37,28169,Amazon,Luxury,1,Risky category
+T00598,2025-05-29,13:11,39407,Target,Luxury,1,Risky category
+T00599,2025-01-18,00:44,703,eBay,Entertainment,1,Odd transaction hour
+T00600,2025-06-29,18:53,1014,Amazon,Electronics,0,Legitimate
+T00601,2025-08-19,05:49,1494,Target,Dining,1,Odd transaction hour
+T00602,2025-02-22,04:08,1815,Shell,Groceries,1,Odd transaction hour
+T00603,2025-04-13,07:12,775,Uber,Entertainment,0,Legitimate
+T00604,2025-07-06,17:37,20764,Walmart,Gambling,1,Risky category
+T00605,2025-01-21,03:17,397,Nike,Dining,1,Odd transaction hour
+T00606,2025-06-02,10:17,43326,Nike,Gambling,1,Risky category
+T00607,2025-02-16,07:33,263,BestBuy,Entertainment,0,Legitimate
+T00608,2025-07-26,15:24,1817,Target,Groceries,0,Legitimate
+T00609,2025-05-08,22:03,455,Walmart,Clothing,0,Legitimate
+T00610,2025-05-20,08:18,1992,Nike,Groceries,0,Legitimate
+T00611,2025-01-05,10:40,72,Starbucks,Entertainment,0,Legitimate
+T00612,2025-07-07,06:50,796,Uber,Clothing,0,Legitimate
+T00613,2025-06-05,20:05,506,Nike,Groceries,0,Legitimate
+T00614,2025-08-27,06:23,1206,Uber,Fuel,0,Legitimate
+T00615,2025-04-19,04:02,165,Starbucks,Electronics,1,Odd transaction hour
+T00616,2025-02-26,16:33,33744,Target,Luxury,1,Risky category
+T00617,2025-04-28,00:47,1437,Amazon,Electronics,1,Odd transaction hour
+T00618,2025-01-03,00:18,1386,BestBuy,Fuel,1,Odd transaction hour
+T00619,2025-03-06,23:01,1582,Target,Clothing,1,Odd transaction hour
+T00620,2025-05-12,21:02,1624,Apple,Electronics,0,Legitimate
+T00621,2025-02-07,11:41,828,Target,Electronics,0,Legitimate
+T00622,2025-07-21,21:51,421,Starbucks,Fuel,0,Legitimate
+T00623,2025-07-29,04:19,574,Walmart,Electronics,1,Odd transaction hour
+T00624,2025-07-08,07:12,96,Target,Dining,0,Legitimate
+T00625,2025-06-01,04:49,1625,Apple,Entertainment,1,Odd transaction hour
+T00626,2025-02-09,03:54,49339,Walmart,Luxury,1,"Odd transaction hour, Risky category"
+T00627,2025-05-05,07:10,1175,Uber,Groceries,0,Legitimate
+T00628,2025-03-05,17:41,1467,Target,Dining,0,Legitimate
+T00629,2025-06-09,03:12,1091,Starbucks,Entertainment,1,Odd transaction hour
+T00630,2025-05-18,08:30,1885,Shell,Entertainment,0,Legitimate
+T00631,2025-02-11,10:17,1805,eBay,Electronics,0,Legitimate
+T00632,2025-05-22,13:37,256,eBay,Fuel,0,Legitimate
+T00633,2025-03-01,02:21,63879,Uber,Luxury,1,"High-value transaction, Odd transaction hour, Risky category"
+T00634,2025-01-06,03:48,411,eBay,Clothing,1,Odd transaction hour
+T00635,2025-06-05,17:44,412,Nike,Dining,0,Legitimate
+T00636,2025-06-25,19:04,1569,Apple,Dining,0,Legitimate
+T00637,2025-03-05,19:44,309,eBay,Clothing,0,Legitimate
+T00638,2025-08-11,15:52,617,Walmart,Electronics,0,Legitimate
+T00639,2025-04-15,10:07,1782,Starbucks,Electronics,0,Legitimate
+T00640,2025-03-14,07:18,1798,Apple,Electronics,0,Legitimate
+T00641,2025-04-05,22:52,969,Amazon,Groceries,0,Legitimate
+T00642,2025-06-25,04:11,1580,BestBuy,Fuel,1,Odd transaction hour
+T00643,2025-03-05,10:26,14267,Nike,Gambling,1,Risky category
+T00644,2025-05-25,22:46,660,Target,Clothing,0,Legitimate
+T00645,2025-06-09,02:34,1221,BestBuy,Groceries,1,Odd transaction hour
+T00646,2025-02-06,11:53,54112,Shell,Luxury,1,"High-value transaction, Risky category"
+T00647,2025-04-07,16:07,1443,BestBuy,Dining,0,Legitimate
+T00648,2025-05-25,22:19,1518,Uber,Fuel,0,Legitimate
+T00649,2025-04-26,19:28,400,eBay,Fuel,0,Legitimate
+T00650,2025-04-24,06:50,48752,Uber,Luxury,1,Risky category
+T00651,2025-02-21,14:33,1570,Nike,Entertainment,0,Legitimate
+T00652,2025-01-11,01:44,423,Target,Groceries,1,Odd transaction hour
+T00653,2025-02-17,16:31,1832,BestBuy,Electronics,0,Legitimate
+T00654,2025-05-14,22:18,892,Starbucks,Fuel,0,Legitimate
+T00655,2025-06-22,15:06,17742,Nike,Luxury,1,Risky category
+T00656,2025-03-18,17:00,653,Target,Electronics,0,Legitimate
+T00657,2025-06-03,18:15,12659,Nike,Luxury,1,Risky category
+T00658,2025-03-10,15:24,1243,Apple,Electronics,0,Legitimate
+T00659,2025-01-30,00:54,469,Amazon,Groceries,1,Odd transaction hour
+T00660,2025-01-19,14:50,958,BestBuy,Groceries,0,Legitimate
+T00661,2025-02-15,15:41,735,BestBuy,Fuel,0,Legitimate
+T00662,2025-01-02,22:54,39227,Shell,Gambling,1,Risky category
+T00663,2025-02-25,02:45,1981,Starbucks,Groceries,1,Odd transaction hour
+T00664,2025-01-25,23:02,1545,BestBuy,Electronics,1,Odd transaction hour
+T00665,2025-01-18,04:50,928,Starbucks,Entertainment,1,Odd transaction hour
+T00666,2025-07-16,09:06,1994,Target,Entertainment,0,Legitimate
+T00667,2025-08-09,04:51,226,Nike,Fuel,1,Odd transaction hour
+T00668,2025-02-15,17:30,50,Starbucks,Electronics,0,Legitimate
+T00669,2025-07-29,15:21,1617,Starbucks,Entertainment,0,Legitimate
+T00670,2025-07-03,12:05,44124,Target,Gambling,1,Risky category
+T00671,2025-03-06,01:04,762,Amazon,Electronics,1,Odd transaction hour
+T00672,2025-02-01,02:33,35481,Amazon,Gambling,1,"Odd transaction hour, Risky category"
+T00673,2025-07-31,00:13,1349,Nike,Dining,1,Odd transaction hour
+T00674,2025-08-22,03:21,668,Starbucks,Fuel,1,Odd transaction hour
+T00675,2025-06-04,13:42,777,Amazon,Fuel,0,Legitimate
+T00676,2025-06-24,21:00,1958,Apple,Electronics,0,Legitimate
+T00677,2025-01-30,19:02,582,Amazon,Fuel,0,Legitimate
+T00678,2025-07-02,06:52,1171,Apple,Groceries,0,Legitimate
+T00679,2025-08-21,09:07,1658,Amazon,Dining,0,Legitimate
+T00680,2025-08-28,03:00,1016,Shell,Clothing,1,Odd transaction hour
+T00681,2025-05-28,19:10,1058,Target,Luxury,1,Risky category
+T00682,2025-03-03,22:38,1436,Target,Entertainment,0,Legitimate
+T00683,2025-02-17,01:45,32083,Starbucks,Gambling,1,"Odd transaction hour, Risky category"
+T00684,2025-03-11,04:47,38777,Apple,Luxury,1,"Odd transaction hour, Risky category"
+T00685,2025-02-20,00:14,1529,Nike,Dining,1,Odd transaction hour
+T00686,2025-06-25,05:22,60463,Nike,Luxury,1,"High-value transaction, Odd transaction hour, Risky category"
+T00687,2025-01-23,22:45,1766,Apple,Electronics,0,Legitimate
+T00688,2025-05-10,10:44,1145,Starbucks,Clothing,0,Legitimate
+T00689,2025-08-09,10:39,739,Nike,Clothing,0,Legitimate
+T00690,2025-03-03,07:31,376,Walmart,Electronics,0,Legitimate
+T00691,2025-08-21,07:43,6763,Nike,Gambling,1,Risky category
+T00692,2025-01-04,20:01,1948,BestBuy,Dining,0,Legitimate
+T00693,2025-01-17,09:04,958,Starbucks,Groceries,0,Legitimate
+T00694,2025-05-17,22:05,611,Apple,Groceries,0,Legitimate
+T00695,2025-01-19,23:07,1524,Walmart,Clothing,1,Odd transaction hour
+T00696,2025-01-27,05:38,748,Shell,Clothing,1,Odd transaction hour
+T00697,2025-05-22,16:21,876,BestBuy,Clothing,0,Legitimate
+T00698,2025-04-25,04:05,1580,Nike,Entertainment,1,Odd transaction hour
+T00699,2025-05-23,08:45,526,Shell,Groceries,0,Legitimate
+T00700,2025-08-05,02:14,395,eBay,Fuel,1,Odd transaction hour
